@@ -1,0 +1,94 @@
+/* Stock.css */
+
+.stock-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+.text-2xl font-bold mb-4
+{
+  color: black;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #a71d2a;
+}
+
+.stock-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stock-table th, .stock-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.stock-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.stock-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+#reader {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* --- Added for Date Picker --- */
+.date-picker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.date-picker label {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.date-picker input[type="date"] {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

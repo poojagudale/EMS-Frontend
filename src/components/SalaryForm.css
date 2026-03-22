@@ -1,0 +1,95 @@
+/* Centering the form with increased card size */
+.salary-form-container {
+    max-width: 420px; /* Increased for better layout */
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Title */
+.salary-form-container h2 {
+    text-align: center;
+    color: #2905ca;
+    margin-bottom: 12px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Labels above fields */
+.salary-form-label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px; /* Adjusted spacing */
+    margin-top: 5px;
+    display: block;
+    color: #0c0707;
+}
+
+/* Common styling for all input fields */
+.salary-form-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    outline: none;
+    margin-bottom: 20px; /* Improved spacing */
+    
+}
+
+/* Date Picker Styling */
+.salary-form-date-picker {
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px; /* Consistent spacing */
+}
+
+.salary-form-date-picker input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background: white;
+}
+
+/* Spacing between "Choose Date" label and input */
+.salary-form-date-picker label {
+    margin-bottom: 3px;
+    display: block;
+    font-weight: 500;
+    color: #444;
+}
+
+/* Improved spacing for salary field */
+.salary-form-input.salary-field {
+    
+    margin-bottom: 30px; /* Adjusted for better alignment */
+}
+
+
+/* Submit Button */
+.salary-form-button {
+    width: 45%;
+    padding: 12px;
+    background-color: #007bff !important;
+    color: white !important;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    display: block;
+    margin: 0 auto; /* Center button */
+}
+
+/* Button Hover Effect */
+.salary-form-button:hover {
+    background-color: #036ee0 !important;
+    transform: scale(1.05);
+}
